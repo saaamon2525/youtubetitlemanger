@@ -1,0 +1,883 @@
+
+> youtube-title-planner@0.0.0 build
+> vite build --debug
+
+2026-01-04T19:35:44.960Z vite:config config file loaded in 67.29ms
+2026-01-04T19:35:44.962Z vite:env loading env files: [
+  'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/.env',
+  'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/.env.local',
+  'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/.env.production',
+  'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/.env.production.local'
+]
+2026-01-04T19:35:44.962Z vite:env env files loaded in 0.33ms
+2026-01-04T19:35:44.963Z vite:env using resolved env: {}
+2026-01-04T19:35:44.979Z vite:config using resolved config: {
+  plugins: [
+    'vite:build-metadata',
+    'vite:watch-package-data',
+    'alias',
+    'vite:react-babel',
+    'vite:react-refresh',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:react-virtual-preamble',
+    'vite-plugin-node-polyfills',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:build-html',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:force-amd-wrap-require',
+    'vite:force-systemjs-wrap-complete',
+    'vite:prepare-out-dir',
+    'commonjs',
+    'vite:data-uri',
+    'vite:rollup-options-plugins',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'vite:build-import-analysis',
+    'vite:esbuild-transpile',
+    'vite:terser',
+    'vite:license',
+    'vite:manifest',
+    'vite:ssr-manifest',
+    'vite:reporter',
+    'vite:load-fallback'
+  ],
+  base: '/youtubetitlemanger/',
+  build: {
+    target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: {
+      onwarn: [Function: onwarn],
+      plugins: [ { name: 'inject', transform: [Function: transform] } ]
+    },
+    commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    license: false,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    ssr: false,
+    emitAssets: true,
+    createEnvironment: [Function: createEnvironment],
+    cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    cssMinify: true
+  },
+  esbuild: {
+    jsxDev: false,
+    charset: 'utf8',
+    legalComments: 'none',
+    jsx: 'automatic',
+    jsxImportSource: undefined
+  },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react/jsx-dev-runtime',
+      'react/jsx-runtime'
+    ],
+    exclude: [
+      'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\buffer\\dist\\index.cjs',
+      'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\global\\dist\\index.cjs',
+      'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\process\\dist\\index.cjs'
+    ],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    noDiscovery: false,
+    esbuildOptions: {
+      preserveSymlinks: false,
+      jsx: 'automatic',
+      define: {},
+      inject: [
+        'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\buffer\\dist\\index.cjs',
+        'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\global\\dist\\index.cjs',
+        'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\process\\dist\\index.cjs'
+      ],
+      plugins: [
+        {
+          name: 'node-stdlib-browser-alias',
+          setup: [AsyncFunction: setup]
+        },
+        {
+          name: 'vite-plugin-node-polyfills-shims-resolver',
+          setup: [Function: setup]
+        }
+      ]
+    }
+  },
+  resolve: {
+    externalConditions: [ 'node', 'module-sync' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      {
+        find: 'fs',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\node-stdlib-browser\\esm\\mock\\empty.js'
+      },
+      {
+        find: 'path',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\path-browserify'
+      },
+      {
+        find: 'stream',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\stream-browserify'
+      },
+      {
+        find: 'util',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\util'
+      },
+      {
+        find: 'zlib',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\browserify-zlib'
+      },
+      {
+        find: 'node:fs',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\node-stdlib-browser\\esm\\mock\\empty.js'
+      },
+      {
+        find: 'node:path',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\path-browserify'
+      },
+      {
+        find: 'node:stream',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\stream-browserify'
+      },
+      {
+        find: 'node:util',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\util'
+      },
+      {
+        find: 'node:zlib',
+        replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\browserify-zlib'
+      },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/node_modules/vite/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/node_modules/vite/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'development|production' ],
+    builtins: []
+  },
+  environments: {
+    client: {
+      define: undefined,
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          {
+            find: 'fs',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\node-stdlib-browser\\esm\\mock\\empty.js'
+          },
+          {
+            find: 'path',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\path-browserify'
+          },
+          {
+            find: 'stream',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\stream-browserify'
+          },
+          {
+            find: 'util',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\util'
+          },
+          {
+            find: 'zlib',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\browserify-zlib'
+          },
+          {
+            find: 'node:fs',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\node-stdlib-browser\\esm\\mock\\empty.js'
+          },
+          {
+            find: 'node:path',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\path-browserify'
+          },
+          {
+            find: 'node:stream',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\stream-browserify'
+          },
+          {
+            find: 'node:util',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\util'
+          },
+          {
+            find: 'node:zlib',
+            replacement: 'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\browserify-zlib'
+          },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'development|production' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [
+          'react',
+          'react-dom',
+          'react/jsx-dev-runtime',
+          'react/jsx-runtime'
+        ],
+        exclude: [
+          'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\buffer\\dist\\index.cjs',
+          'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\global\\dist\\index.cjs',
+          'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\process\\dist\\index.cjs'
+        ],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: false,
+        esbuildOptions: {
+          preserveSymlinks: false,
+          jsx: 'automatic',
+          define: {},
+          inject: [
+            'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\buffer\\dist\\index.cjs',
+            'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\global\\dist\\index.cjs',
+            'C:\\Users\\saamon\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite-plugin-node-polyfills\\shims\\process\\dist\\index.cjs'
+          ],
+          plugins: [
+            {
+              name: 'node-stdlib-browser-alias',
+              setup: [AsyncFunction: setup]
+            },
+            {
+              name: 'vite-plugin-node-polyfills-shims-resolver',
+              setup: [Function: setup]
+            }
+          ]
+        }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCreateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: 'assets',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {
+          onwarn: [Function: onwarn],
+          plugins: [ { name: 'inject', transform: [Function: transform] } ]
+        },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'esbuild',
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        cssMinify: true
+      },
+      plugins: [
+        {
+          name: 'vite:build-metadata',
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId]
+        },
+        {
+          name: 'vite:react-babel',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          options: [Function: options]
+        },
+        {
+          name: 'vite:react-refresh',
+          enforce: 'pre',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^\/@react\-refresh$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^\/@react\-refresh$/ },
+            handler: [Function: handler]
+          },
+          transformIndexHtml: [Function: transformIndexHtml]
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve',
+          resolveId: {
+            filter: { id: { exclude: /^(?:\0|\/?virtual:)/ } },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^__vite\-browser\-external/,
+                /^__vite\-optional\-peer\-dep/
+              ]
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:esbuild',
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        {
+          name: 'vite:json',
+          transform: {
+            filter: {
+              id: {
+                include: /\.json(?:$|\?)(?!commonjs-(?:proxy|external))/,
+                exclude: /[?&](?:worker|sharedworker|raw|url)\b/
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: { handler: [Function: handler] },
+          load: {
+            filter: { id: { exclude: /^\0/ } },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:react-virtual-preamble',
+          resolveId: {
+            order: 'pre',
+            filter: { id: /^@vitejs\/plugin\-react\/preamble$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ @vitejs\/plugin\-react\/preamble$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite-plugin-node-polyfills',
+          config: [Function: config]
+        },
+        {
+          name: 'vite:wasm-fallback',
+          load: { filter: { id: /\.wasm$/ }, handler: [Function: handler] }
+        },
+        {
+          name: 'vite:define',
+          transform: { handler: [AsyncFunction: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [AsyncFunction: renderChunk],
+          augmentChunkHash: [Function: augmentChunkHash],
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:build-html',
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:worker-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              code: /new\s+(?:Worker|SharedWorker)\s*\(\s*new\s+URL.+?import\.meta\.url/s
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:asset-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /^ vite\/preload\-helper\.js$/,
+                  /^C:\\Users\\saamon\\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite\\dist\\client\\client\.mjs$/
+                ]
+              },
+              code: /new\s+URL.+import\.meta\.url/s
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:force-amd-wrap-require',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:force-systemjs-wrap-complete',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:prepare-out-dir',
+          options: [Function: options],
+          renderStart: { order: 'pre', handler: [Function: handler] }
+        },
+        {
+          name: 'commonjs',
+          version: '29.0.0',
+          options: [Function: options],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: [AsyncFunction: load],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:data-uri',
+          buildStart: [Function: buildStart],
+          resolveId: [Function: resolveId],
+          load: [Function: load]
+        },
+        { name: 'inject', transform: [Function: transform] },
+        {
+          name: 'vite:dynamic-import-vars',
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^C:\\Users\\saamon\\\.gemini\\antigravity\\youtubeタイトル参老E��ール\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'vite:build-import-analysis',
+          resolveId: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { code: /import\s*\(/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:esbuild-transpile',
+          applyToEnvironment: [Function: applyToEnvironment],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:terser',
+          applyToEnvironment: [Function: applyToEnvironment],
+          renderChunk: [AsyncFunction: renderChunk],
+          closeBundle: [Function: closeBundle]
+        },
+        {
+          name: 'vite:license',
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:reporter',
+          sharedDuringBuild: true,
+          perEnvironmentStartEndDuringDev: true,
+          transform: [Function: transform],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          renderStart: [Function: renderStart],
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          writeBundle: [AsyncFunction: writeBundle]
+        },
+        {
+          name: 'vite:load-fallback',
+          load: { handler: [AsyncFunction: handler] }
+        }
+      ]
+    }
+  },
+  configFile: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/vite.config.js',
+  configFileDependencies: [
+    'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/vite.config.js'
+  ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    configLoader: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    build: {}
+  },
+  root: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール',
+  decodedBase: '/youtubetitlemanger/',
+  rawBase: '/youtubetitlemanger/',
+  publicDir: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/public',
+  cacheDir: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール/node_modules/.vite',
+  command: 'build',
+  mode: 'production',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: true,
+    devSourcemap: false
+  },
+  json: { namedExports: true, stringify: 'auto' },
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '**/.git/**' ],
+      allow: [ 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    perEnvironmentWatchChangeDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModules]
+  },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール',
+  env: {
+    BASE_URL: '/youtubetitlemanger/',
+    MODE: 'production',
+    DEV: false,
+    PROD: true
+  },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール' => {
+      dir: 'C:/Users/saamon/.gemini/antigravity/youtubeタイトル参老E��ール',
+      data: {
+        name: 'youtube-title-planner',
+        description: 'YouTube Title Planner Application',
+        author: 'Saamon',
+        private: true,
+        version: '0.0.0',
+        type: 'module',
+        main: 'electron/main.cjs',
+        scripts: {
+          dev: 'vite',
+          build: 'vite build',
+          lint: 'eslint .',
+          preview: 'vite preview',
+          predeploy: 'npm run build',
+          deploy: 'gh-pages -d dist'
+        },
+        build: {
+          appId: 'com.saamon.youtubeplanner',
+          productName: 'YouTube Title Planner',
+          directories: { output: 'dist_electron' },
+          files: [ 'dist/**/*', 'electron/**/*' ],
+          win: { target: 'nsis' }
+        },
+        dependencies: {
+          '@google/generative-ai': '^0.24.1',
+          axios: '^1.13.2',
+          dexie: '^4.2.1',
+          'dexie-react-hooks': '^4.2.0',
+          kuromoji: '^0.1.2',
+          'lucide-react': '^0.562.0',
+          openai: '^6.15.0',
+          react: '^19.2.0',
+          'react-dom': '^19.2.0',
+          'react-router-dom': '^7.11.0'
+        },
+        devDependencies: {
+          '@eslint/js': '^9.39.1',
+          '@types/react': '^19.2.5',
+          '@types/react-dom': '^19.2.3',
+          '@vitejs/plugin-react': '^5.1.1',
+          concurrently: '^9.2.1',
+          'cross-env': '^10.1.0',
+          electron: '^33.0.0',
+          'electron-builder': '^26.0.12',
+          'electron-squirrel-startup': '^1.0.1',
+          eslint: '^9.39.1',
+          'eslint-plugin-react-hooks': '^7.0.1',
+          'eslint-plugin-react-refresh': '^0.4.24',
+          'gh-pages': '^6.3.0',
+          globals: '^16.5.0',
+          'path-browserify': '^1.0.1',
+          vite: '^7.2.4',
+          'vite-plugin-node-polyfills': '^0.24.0',
+          'wait-on': '^9.0.3'
+        }
+      },
+      hasSideEffects: [Function: hasSideEffects],
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plugins', rollupOptions: {} },
+  appType: 'spa',
+  experimental: {
+    importGlobRestoreExtension: false,
+    renderBuiltUrl: undefined,
+    hmrPartialAccept: false
+  },
+  future: undefined,
+  ssr: {
+    target: 'node',
+    optimizeDeps: { esbuildOptions: { preserveSymlinks: false } },
+    resolve: { conditions: undefined, externalConditions: undefined }
+  },
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateDevEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  webSocketToken: 'jIv4J5iYA38N',
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  Symbol(vite:resolved-config): true
+}
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✁E[39m 1924 modules transformed.

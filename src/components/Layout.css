@@ -1,0 +1,47 @@
+.app-layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-primary);
+    overflow: hidden;
+}
+
+.pane {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-right: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+}
+
+.pane-left {
+    width: 450px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--border-color);
+}
+
+.pane-center {
+    flex: 1;
+    background-color: var(--bg-primary);
+    min-width: 400px;
+}
+
+.pane-right {
+    width: 400px;
+    flex-shrink: 0;
+    border-left: 1px solid var(--border-color);
+    border-right: none;
+}
+
+@media (max-width: 1024px) {
+
+    /* Collapse right pane or use tabs on smaller screens if needed */
+    /* For now, just keep it scrollable/shrinkable */
+    .pane-left {
+        width: 240px;
+    }
+
+    .pane-right {
+        width: 280px;
+    }
+}

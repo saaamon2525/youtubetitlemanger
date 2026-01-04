@@ -1,0 +1,66 @@
+:root {
+  /* Colors - YouTube Studio Dark Mode inspired */
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1f1f1f; /* Panels, Cards */
+  --bg-hover: #303030;
+  --bg-input: #121212;
+
+  --text-primary: #f1f1f1;
+  --text-secondary: #aaaaaa;
+  --text-disabled: #717171;
+
+  --accent-color: #3ea6ff; /* Action Blue */
+  --accent-hover: #65b8ff;
+  --error-color: #ff4e45; /* YouTube Red-ish */
+  --success-color: #2ba640;
+
+  --border-color: #3f3f3f;
+  --divider-color: #303030;
+
+  /* Typography */
+  --font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-size-sm: 0.8rem;
+  --font-size-base: 0.95rem;
+  --font-size-lg: 1.1rem;
+
+  /* Spacing & Layout */
+  --header-height: 60px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  height: 100vh;
+  overflow: hidden; /* App-like feel */
+}
+
+/* Reset basics */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #717171;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #909090;
+}
